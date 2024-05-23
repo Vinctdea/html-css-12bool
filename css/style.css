@@ -1,0 +1,42 @@
+/********* regole genrali****** */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    padding: 10px;
+    
+}
+
+[class*="col-"]{
+    background-color: rgb(48, 105, 212);
+    min-height: 70px;
+    border: 1px solid white;    
+}
+
+.row{
+   align-items: center;
+   justify-content: center;
+
+}
+
+.text1{
+    color: white;
+    align-items: center;
+}
+
+.cont-int{
+    padding: 10px;
+    align-items: center;
+}
+
+.nest{
+    background-color: chartreuse;
+    min-height: 50px;
+    align-items: center;
+   
+   
+}
+
