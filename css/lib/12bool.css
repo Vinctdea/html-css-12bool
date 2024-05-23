@@ -148,3 +148,31 @@
 .around{
     justify-content: space-around;
 }
+
+.just-start{
+    justify-content: flex-start;
+}
+
+.just-center{
+    justify-content: center;
+}
+
+.just-end{
+    justify-content: flex-end;
+}
+
+.alitems-cen{
+    align-items: center;
+}
+
+.alitems-bot{
+    align-self: flex-end ;
+}
+
+.alitems-top{
+    align-self: flex-start;
+}
+
+.self-mid{
+    align-self: center;
+}

@@ -1,0 +1,34 @@
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+[class*="col-"]{
+    min-height: 70px;
+    background-color: rgb(14, 28, 233);
+    border: 1px solid white;
+    color: white;
+}
+
+section{
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.cont-int{
+    display: flex;
+    padding: 10px;
+}
+
+.col-nest{
+    min-height: 40px;
+    background-color: rgb(33, 126, 5);
+    border: 1px solid rgb(14, 28, 233);
+}
+
+.coldb{
+    min-height: 140px ;
+}
